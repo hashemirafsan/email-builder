@@ -1,0 +1,220 @@
+/*=========================
+==========================*/
+.el-tabs--border-card {
+    min-height: 100vh !important;
+}
+.el-collapse {
+    overflow: visible;
+}
+.el-color-picker__panel {
+    margin-left: -187px;
+}
+.collapse-transition.collapse-transition {
+    overflow: -webkit-paged-x !important;
+}
+.el-collapse-item__wrap {
+    overflow: -webkit-paged-x;
+}
+.el-color-picker__panel {
+    z-index: 0 !important;
+}
+.el-button+.el-button{
+    margin-left: 5px;
+}
+.el-icon-delete,
+.el-icon-document,
+.el-icon-close {
+    margin-left: 5px;
+}
+.el-tooltip {
+    display: inline-block;
+    margin-left: 5px;
+    z-index: 121;
+}
+.el-form > .background-image {
+    margin-bottom: 0;
+}
+.sj-preview>.el-tabs>.el-tabs__content {
+    min-height: 90vh;
+    overflow: scroll !important;
+}
+
+
+/*========================
+=========================*/
+.email-template-editor {
+    padding: 10px;
+}
+.general-settings-wrapper {
+    padding-bottom: 20px;
+}
+.general-settings-wrapper::before,
+.general-settings-wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.general-settings-wrapper .settings-label {
+    display: inline-block;
+    width: 70%;
+    min-height: 1px;
+}
+.general-settings-wrapper .settings-item {
+    display: inline-block;
+    width: 30%;
+    min-height: 1px;
+}
+.react-custom-trigger {
+    height: 20px;
+    width: 20px;
+    border: 2px dotted grey;
+    box-shadow: 1px 1px 1px solid black;
+}
+.sj_empty_placeholder {
+    outline: 1px dashed #2FAADE;
+    background-color: rgba(222, 242, 250, 0.85);
+    padding: 20px;
+    min-height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: #2FAADE;
+}
+.email-preview {
+    padding: 0;
+    background: #dfdfdf;
+    min-height: 100vh;
+}
+.row-tools-group {
+    padding: 20px 35px;
+}
+.row-content-group {
+    padding: 20px 35px;
+}
+.row-tool {
+    height: 70px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition-duration: .15s;
+    transition-property: box-shadow;
+}
+.row-tool:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+.row-tool-column {
+    background-color: #EEE;
+    height: 100%;
+    padding: 10px;
+}
+.tool-column-content {
+    background-color: #DDD;
+    height: 100%;
+}
+.row-content-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 31px;
+}
+.content-tool {
+    background-color: #FFF;
+    color: #505659;
+    text-transform: uppercase;
+    min-width: 115px;
+    max-width: 115px;
+    height: 115px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    transition-duration: .15s;
+    transition-property: box-shadow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-tool:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+.preview-row-wrapper {
+    position: relative;
+}
+.row-layer-selector {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999990;
+}
+.row-layer-selector::after {
+    content: ' ';
+    opacity: 0;
+    z-index: 100;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    outline: #7aabc0 solid 2px
+}
+.row-layer-selector:hover::after {
+    opacity: 1;
+}
+.row-layer-selector-active {
+    opacity: 1;
+    z-index: 99999;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    outline: #7aabc0 solid 2px
+}
+.row-layer-type {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: -20px;
+    right: -1px;
+    background-color: #7aabc0;
+    color: #FFF;
+    z-index: 999990;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px 10px;
+    height: 20px;
+}
+.row-editable-handle {
+    display: inline-block;
+    position: absolute;
+    bottom: -28px;
+    right: 0px;
+    color: #FFF;
+    text-align: center;
+    z-index: 112;
+}
+.edit-button {
+    z-index: 121;
+}
+.row-editor {
+    padding: 10px;
+}
+.row-editor-header {
+    display: inline-flex;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.row-editor-close-wrapper {
+    float: right;
+}
